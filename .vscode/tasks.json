@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build hello world",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-g", "-o", "tspmain", "tspmain.cpp", "ga/GA1DArrayGenome.cpp", "ga/GA1DBinStrGenome.cpp", "ga/GA2DArrayGenome.cpp", "ga/GA2DBinStrGenome.cpp", 
+        "ga/GA3DArrayGenome.cpp", "ga/GA3DBinStrGenome.cpp", "ga/GAAllele.cpp", "ga/GABaseGA.cpp", "ga/GABin2DecGenome.cpp", "ga/gabincvt.cpp", 
+        "ga/GABinStr.cpp", "ga/GADCrowdingGA.cpp", "ga/GADemeGA.cpp", "ga/gaerror.cpp", "ga/GAGenome.cpp", "ga/GAIncGA.cpp", 
+        "ga/GAList.cpp", "ga/GAListBASE.cpp", "ga/GAListGenome.cpp", "ga/GAParameter.cpp", "ga/GAPopulation.cpp", "ga/garandom.cpp", "ga/GARealGenome.cpp", 
+        "ga/GAScaling.cpp", "ga/GASelector.cpp", "ga/GASimpleGA.cpp", "ga/GASStateGA.cpp", "ga/GAStatistics.cpp", "ga/GAStringGenome.cpp", "ga/GATree.cpp", 
+        "ga/GATreeBASE.cpp", "ga/GATreeGenome.cpp"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
